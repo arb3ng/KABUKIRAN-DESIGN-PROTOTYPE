@@ -300,6 +300,10 @@ button {
 
     }
 
+    @media (max-width: 320px) {
+        position: static; /* or position: relative; depending on your layout */
+    }
+
 }
 
 .banner_content {
@@ -1182,3 +1186,4 @@ h1, .h1 {
         width: 300px;
     }
 }
+
